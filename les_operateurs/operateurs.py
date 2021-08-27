@@ -8,4 +8,12 @@ print(10 // 3) #ici on aura un nombre entier sans virgule : 3
 #operateur puissance: 
 print(2**3) 
 
-allo
+i =  5
+i +=10
+print(i)
+
+a = [1,2,3]
+b = [1,2,3] 
+print(a==b)
+#is va donner l'emplacement de la case memoire
+print(a is b)
