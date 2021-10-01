@@ -3,10 +3,11 @@ employes = ["Pier-Luc","Joe","Michel","Ouz","Alex"]
 #methode pop:supprimer le dernier element si on lui donne pas d'indice
 # ele = employes.pop()
 # print(ele)
-# employes.clear()
-# print(employes)
+# methode clear : suprrimer tous les element du tableau 
+employes.clear()
+print(employes)
 ##################################
 #methode join
-liste = ["Mon","nom","est","Ouzinem"]
-resultat = ("\t").join(liste)
-print(resultat)
+# liste = ["Mon","nom","est","Ouzinem"]
+# resultat = (" ").join(liste)
+# print(resultat)
