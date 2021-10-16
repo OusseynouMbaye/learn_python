@@ -17,3 +17,10 @@ prime_number = [11,3,8,4,2,6,1]
 # methode sort(). va trier la liste et va les mettre en ordre
 prime_number.sort()
 print(prime_number)
+# methode copy()
+prime_number.copy()
+
+print("copy the list", prime_number)
+# method clear()
+systems.clear()
+print(systems)
