@@ -1,5 +1,5 @@
 animals = ["dog", "cat", "mokey"]
-print(animals.index("cat"))
+# print(animals.index("cat"))
 
 # method append
 animals.append("sheep")
@@ -13,4 +13,4 @@ print(animals)
 
 animals_extend = ["horse","birds"]
 animals.extend(animals_extend)
-print(animals)
+# print(animals)
