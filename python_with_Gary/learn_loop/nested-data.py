@@ -15,4 +15,3 @@ for user_group in user_groups:
             print(f'{user["name"]} is student')
         else:
             print(f'{user["name"]} is not student')
-
