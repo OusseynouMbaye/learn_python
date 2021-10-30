@@ -1,11 +1,11 @@
 user_groups = [
     [
         {'name': 'Person A', 'isStudent': True},
-        {'name': 'Person B', 'isStudent': True}
+        {'name': 'Person B', 'isStudent': False}
     ],
     [
         {'name': 'Person C', 'isStudent': False},
-        {'name': 'Person D', 'isStudent': False}
+        {'name': 'Person D', 'isStudent': True}
     ]
 ]
 
@@ -14,6 +14,6 @@ for user_group in user_groups:
     for user in user_group:
         # print(user)
         if user["isStudent"]:
-            print(f'{user["name"]} is student')
+            continue
         else:
             print(f'{user["name"]} is not student')
