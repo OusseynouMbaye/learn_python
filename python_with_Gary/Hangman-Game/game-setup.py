@@ -1,9 +1,8 @@
-phrase = "Je suis pret"
+# phrase = "Je suis pret"
+phrase = input("[Player A ] Enter a phrase  to solve: ")
 
-# index = phrase.index(" ")  # find(" ") index(" ") return first index with space
-# print(index)
 # return all index with space
-enumerate_obj = enumerate(phrase)
+# enumerate_obj = enumerate(phrase)
 # print(enumerate_obj)
 
 
