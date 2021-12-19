@@ -1,7 +1,7 @@
 user = {"firt_name": "Ouzinem",
-        "address": "St-Georges", 
-        "favorite_sport": {1:"swim",2: "cycling"},
-         "person": {1: "moi", 2: "toi"}}
+        "address": "St-Georges",
+        "favorite_sport": {1: "swim", 2: "cycling"},
+        "person": {1: "moi", 2: "toi"}}
 
 print(user["favorite_sport"].values())
 # print(user["favorite_sport"])
