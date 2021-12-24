@@ -3,7 +3,7 @@ from random import random, randint
 
 # for i in range(10):
 MENU = "*** Le jeu du nombre mystere *** "
-number_to_find = randint(1, 10)
+number_to_find = randint(1, 100)
 remaining_attempts = 5
 print(MENU)
 while remaining_attempts > 0:
