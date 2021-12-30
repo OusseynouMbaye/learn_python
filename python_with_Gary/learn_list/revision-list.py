@@ -1,0 +1,18 @@
+letters = ["a", "b", "c", "d", "e", "f", "g"]
+# letters.append("h")
+# print(letters)
+# letters.pop()
+# print(letters)
+letters_pop = letters.pop(2)
+# print(letters ,letters_pop)
+# letters.remove("e")
+# print(letters)
+# letters.reverse()
+# print(letters)
+# letter_tri= sorted(letters)  #letters.sort()
+# print(letter_tri)
+numbers_list = list(range(1,51))
+numbers_list.reverse()
+print(numbers_list)
+# for i in numbers_list:
+#     print(i)
