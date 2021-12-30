@@ -1,6 +1,8 @@
-import os, sys, json
+import json
+import os
+import sys
 
-CURRENT_DIR = os.path.dirname(__file__)
+CURRENT_DIR = os.path.dirname(__file__)  # recuperation du dossier parent :nom du dossier
 LISTE_PATH = os.path.join(CURRENT_DIR, "liste.json")
 # MY_LIST = []
 
