@@ -1,3 +1,6 @@
-import my_module
+# import my_module
+import sys
+from pprint import pprint
 
-print(my_module.a)
+pprint(sys.path)
+# print(my_module.a)
