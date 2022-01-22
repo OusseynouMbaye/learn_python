@@ -19,6 +19,12 @@ class competitor(User):
     def __init__(self, name, prenom):
         super().__init__(name, prenom)
 
+    @staticmethod
+    def show_group():
+        for group in groups:
+            if "x" in group:
+                print(group)
+
 
 eve = competitor("eve", "lacasse")
 print(eve)
