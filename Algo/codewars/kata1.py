@@ -11,3 +11,13 @@ def square_digits(num):
     list_num = [int(i) * int(i) for i in str(num)]
     str_list_num = ''.join([str(i) for i in list_num])
     return int(str_list_num)
+
+
+# kata 2
+numb = "8 3 -5 42 -1 0 0 -9 4 7 4 -4"
+num_list = list(map(int, numb.split()))  # convertir en list
+max_value = max(num_list)
+min_value = min(num_list)
+list_str = [max_value, min_value]
+str_num = " ".join(str(e) for e in list_str)
+print(str_num)
