@@ -15,7 +15,7 @@ class User:
             print(group)
 
 
-class competitor(User):
+class Competitor(User):
     def __init__(self, name, prenom):
         super().__init__(name, prenom)
 
@@ -26,6 +26,6 @@ class competitor(User):
                 print(group)
 
 
-eve = competitor("eve", "lacasse")
+eve = Competitor("eve", "lacasse")
 print(eve)
 eve.show_group()
